@@ -1,0 +1,29 @@
+/* header{
+    display: grid;
+    grid-template-columns:auto 200px auto;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    font-family: "Anybody", sans-serif;
+    font-style: bolder ;
+    font-size : 10px
+*/ 
+
+
+/*
+.logo-rotate {
+  transition: transform 2s ease;
+  display: inline-block;
+}
+.logo-rotate:hover {
+    transform: rotate(380deg);
+}
+*/
+
+/*
+.filet{
+  border: 0.5px solid rgb(245, 243, 238);
+}
+*/
