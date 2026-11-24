@@ -82,6 +82,16 @@ p {
     font-style: normal;
 }
 
+h5 {
+    margin: 30px clamp(12px, 2vw, 26px);
+    padding: clamp(12px, 2vw, 26px) clamp(8px, 1.5vw, 12px);
+    text-align: left;
+    font-family: "Neco-Regular", sans-serif;
+    font-size: clamp(16px, 1.5vw, 20px);
+    font-weight: 250;
+    font-style: normal;
+}
+
 /* HEADER */
 
 .header {
@@ -145,6 +155,13 @@ span {
     font-size: 20px;
 }
 
+.span3 {
+   margin: 16px;
+   text-align: right;
+   font-size: 16px; 
+
+}
+
 /* LIENS PRINCIPAUX */
 
 main a {
@@ -193,6 +210,7 @@ main a:hover span {
     border: 2px solid #000000;
     border-radius: 10px;
     transition: background 0.5s;
+    font-family: "Anybody", sans-serif;
 }
 
 .button:hover {
@@ -211,6 +229,11 @@ main a:hover span {
 .grid-txt p {
     margin: 0;
     padding: 26px 12px 12px 0;
+}
+
+.grid-txt h5 {
+    margin: 16px;
+    padding: 0;
 }
 
 /* PAGES PROJETS */
@@ -312,6 +335,7 @@ main a:hover span {
     }
 
     .grid-txt,
+    .grid-txt h5,
     .grid-img {
         grid-template-columns: 1fr;
     }
